@@ -7,6 +7,7 @@ import android.support.annotation.Nullable;
 /**
  * Created by Oleksii Shliama [https://github.com/shliama] on 6/24/16.
  */
+//长宽比例
 public class AspectRatio implements Parcelable {
 
     @Nullable

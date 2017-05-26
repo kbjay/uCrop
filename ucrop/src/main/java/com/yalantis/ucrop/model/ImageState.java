@@ -7,6 +7,10 @@ import android.graphics.RectF;
  */
 public class ImageState {
 
+    //source的rectf
+    // dest的rectf
+    // dest的放大倍数
+    //  dest的旋转角度
     private RectF mCropRect;
     private RectF mCurrentImageRect;
 

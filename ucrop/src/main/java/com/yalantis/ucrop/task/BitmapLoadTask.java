@@ -55,6 +55,7 @@ public class BitmapLoadTask extends AsyncTask<Void, Void, BitmapLoadTask.BitmapW
 
     public static class BitmapWorkerResult {
 
+        //一个bitmap ，一个图片信息  ，一个异常
         Bitmap mBitmapResult;
         ExifInfo mExifInfo;
         Exception mBitmapWorkerException;
@@ -97,6 +98,7 @@ public class BitmapLoadTask extends AsyncTask<Void, Void, BitmapLoadTask.BitmapW
 
         final ParcelFileDescriptor parcelFileDescriptor;
         try {
+            //获取input的文件描述符
             parcelFileDescriptor = mContext.getContentResolver().openFileDescriptor(mInputUri, "r");
         } catch (FileNotFoundException e) {
             return new BitmapWorkerResult(e);

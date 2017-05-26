@@ -15,6 +15,13 @@ public class CropParameters {
     private ExifInfo mExifInfo;
 
 
+    //需要传入的参数：
+    // 结果图像的最大长和宽
+    // 压缩图片的规则，
+    // 压缩的质量，
+    // 输入路径，
+    // 输出的路径，
+    // 图像的信息
     public CropParameters(int maxResultImageSizeX, int maxResultImageSizeY,
                           Bitmap.CompressFormat compressFormat, int compressQuality,
                           String imageInputPath, String imageOutputPath, ExifInfo exifInfo) {

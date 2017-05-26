@@ -5,6 +5,7 @@ package com.yalantis.ucrop.model;
  */
 public class ExifInfo {
 
+     //传入的参数：  方向  度数  转变
     private int mExifOrientation;
     private int mExifDegrees;
     private int mExifTranslation;
