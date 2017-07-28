@@ -1,1 +1,1 @@
-include ':ucrop', ':demo'
+include ':ucrop', ':demo', ':camerademo'
